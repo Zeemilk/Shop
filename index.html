@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animoll</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Animoll<i class="fa-solid fa-paw fa-bounce"></i></i></header>
+    <div class="container">
+        <div class="content">
+            <img src="bean/nian.png" alt="nian bean">
+            <h2>Nian bean</h2>
+            <span class="price">฿500</span>
+            <div class="quantity">
+                <button id="decrease_nian">-</button>
+                <span id="count_nian">0</span>
+                <button id="increase_nian">+</button>
+            </div>
+        </div>
+        <div class="content">
+            <img src="bean/dusk.png" alt="dusk bean">
+            <h2>Dusk bean</h2>
+            <span class="price">฿500</span>
+            <div class="quantity">
+                <button id="decrease_dusk">-</button>
+                <span id="count_dusk">0</span>
+                <button id="increase_dusk">+</button>
+            </div>
+        </div>
+        <div class="content">
+            <img src="bean/ling.png" alt="ling bean">
+            <h2>Ling bean</h2>
+            <span class="price">฿500</span>
+            <div class="quantity">
+                <button id="decrease_ling">-</button>
+                <span id="count_ling">0</span>
+                <button id="increase_ling">+</button>
+            </div>
+        </div>
+        <div class="content">
+            <img src="bean/saga.png" alt="saga bean">
+            <h2>Saga bean</h2>
+            <span class="price">฿500</span>
+            <div class="quantity">
+                <button id="decrease_saga">-</button>
+                <span id="count_saga">0</span>
+                <button id="increase_saga">+</button>
+            </div>
+        </div>
+    </div>
+    <div class ="content" id="show">
+        <h2>฿0</h2><button type="button" onclick="pro()">นโยบายการสั่งซื้อ</button>
+    </div>
+    <form class="content">
+        <button type="submit">ยกเลิก</button><button type="submit" onclick="sumbit()">ซื้อ</button>
+    </form>
+
+    <script src="node.js"></script>
+    <script src="https://kit.fontawesome.com/75e5524377.js" crossorigin="anonymous"></script>
+</body>
+</html>
